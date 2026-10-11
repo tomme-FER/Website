@@ -1,4 +1,4 @@
-/* FER Website v1.1_20261011_1700 */
+/* FER Website v1.3_20261011_1725 */
 :root{--bg:#F4F6F8;--ink:#14181D;--steel:#56616C;--line:#D5DAE0;--red:#C8102E;--amber:#FF8C00;--panel:#14181D;--white:#fff}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -32,9 +32,6 @@ section h2{font-size:2.6rem;font-weight:700;margin-bottom:12px}
 .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:32px}
 .cols h3{font-size:1.6rem;margin-bottom:6px}
 .cols p{color:var(--steel)}
-.price{background:var(--panel);color:var(--white);padding:36px;border-radius:6px;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between}
-.price .amt{font-family:'Barlow Condensed',sans-serif;font-size:3.4rem;font-weight:700;line-height:1}
-.price p{color:#b9c1c9;max-width:44ch}
 .videos{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
 .vid{background:var(--white);border:1px solid var(--line);border-radius:6px;overflow:hidden}
 .vid .frame{aspect-ratio:16/9;background:#e3e7eb;display:flex;align-items:center;justify-content:center;color:var(--steel);font-weight:600}
@@ -45,3 +42,12 @@ details{background:var(--white);border:1px solid var(--line);border-radius:6px;p
 summary{font-weight:700;cursor:pointer}
 details p{margin-top:10px;color:var(--steel)}
 footer{padding:36px 0;color:var(--steel);font-size:.95rem}
+nav{display:flex;flex-wrap:wrap;justify-content:flex-end}
+@media (max-width:640px){
+  header.site .wrap{height:auto;flex-direction:column;align-items:flex-start;padding-top:12px;padding-bottom:12px;gap:4px}
+  nav{justify-content:flex-start}
+  nav a{margin:0 16px 0 0;font-size:.95rem}
+  section{padding:48px 0}
+  section h2{font-size:2.1rem}
+  .btn.alt{margin:12px 0 0}
+}
