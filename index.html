@@ -1,68 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- FER Website v1.4_20261011_1815 -->
 <meta charset="UTF-8">
+<!-- FER Website v1.5_20261020_1115 -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fire EMS Reporting | Station dashboards and incident data services</title>
-<meta name="description" content="Live dispatch dashboards for fire stations and incident data services for Fire/EMS agencies.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<meta name="description" content="Low-cost live dispatch dashboards for fire stations, plus incident data services for Fire/EMS agencies.">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="site"><div class="wrap">
-  <a class="brand" href="/"><img src="assets/logo.png" alt="Fire EMS Reporting" width="148" height="52"></a>
-  <nav><a href="#dashboards">Dashboards</a><a href="#services">Data services</a><a href="#clients">Client help</a><a href="#contact">Contact</a></nav>
+  <a class="brand" href="/"><img src="assets/icon-128.png" alt="" width="44" height="44"><span>Fire EMS Reporting</span></a>
+  <nav><a href="#dashboards">Dashboards</a><a href="#pricing">Pricing</a><a href="#services">Data services</a><a href="#clients">Client help</a><a href="#contact">Contact</a></nav>
 </div></header>
 
 <main>
 <section class="hero"><div class="wrap">
+  <div class="eyebrow">Station dashboards for Fire/EMS</div>
   <h1>Know the call before the tones finish.</h1>
   <p>Fire EMS Reporting builds low-cost station dashboards that show every dispatch the moment it comes in, and helps agencies get more out of their incident data.</p>
   <a class="btn" href="#contact">Talk to us</a><a class="btn alt" href="#dashboards">See the dashboard</a>
-  <div class="screen" aria-label="Example of the station dashboard alert screen">
-    <div class="nature">STRUCTURE FIRE</div>
-    <div class="addr">123 MAIN ST / EXAMPLE CITY</div>
-    <div class="units">UNITS: E1, T1, M1, BC1</div>
-    <div class="timers"><span>ALARM: 14:32</span><span>TURNOUT: 00:48</span></div>
-    <div class="cap">Sample alert. Real alerts also show a map and street view.</div>
+  <div class="shot-hero"><img src="assets/screens/alert.jpg" alt="Dashboard alert screen showing a structure fire with map, street view, units and turnout timer" width="1600" height="900"></div>
+</div></section>
+
+<section id="dashboards" class="alt"><div class="wrap">
+  <div class="eyebrow">The dashboard</div>
+  <h2>Everything the crew needs, on one screen</h2>
+  <p class="lede">A display at the station that takes dispatch data from Active911 and puts it in front of the crew. The screens below show sample data.</p>
+
+  <div class="feature">
+    <div class="txt"><h3>Instant incident alerts</h3><p>When a call comes in from Active911, the display immediately shows the incident type, address, and units assigned, along with a Google map and Street View when available. Colors follow call priority, and a turnout timer starts when the alert arrives.</p></div>
+    <div><div class="shot"><img src="assets/screens/alert.jpg" alt="Incident alert screen" loading="lazy" width="1600" height="900"></div></div>
+  </div>
+  <div class="feature flip">
+    <div class="txt"><h3>Recent incidents, current shift and time</h3><p>Between calls the display keeps a list of past incidents so crews can see what the station has run, with the shift on duty and the current time always in view.</p></div>
+    <div><div class="shot"><img src="assets/screens/history.jpg" alt="Recent incidents list with shift and clock" loading="lazy" width="1600" height="900"></div></div>
+  </div>
+  <div class="feature">
+    <div class="txt"><h3>Weather and weather alerts</h3><p>Current weather is always on the header, and active weather alerts are displayed on screen so crews see warnings without leaving the station display.</p></div>
+    <div><div class="shot"><img src="assets/screens/weather.jpg" alt="Weather radar with a severe weather warning banner" loading="lazy" width="1600" height="900"></div></div>
+  </div>
+  <p class="cap">All screens show sample data, not a real department or incident.</p>
+</div></section>
+
+<section><div class="wrap">
+  <div class="eyebrow">At a glance</div>
+  <h2>What's included</h2>
+  <div class="cols" style="margin-top:28px">
+    <div class="card"><div class="dot"></div><h3>Instant alerts</h3><p>Incident type, address, units, Google map and Street View when available.</p></div>
+    <div class="card"><div class="dot"></div><h3>Current shift</h3><p>The shift on duty is always on screen.</p></div>
+    <div class="card"><div class="dot"></div><h3>Current time</h3><p>Large, readable from across the bay.</p></div>
+    <div class="card"><div class="dot"></div><h3>Past incidents</h3><p>A running list of what the station has responded to.</p></div>
+    <div class="card"><div class="dot"></div><h3>Custom slide show</h3><p>Pictures, announcements, historic data, or almost anything you want.</p></div>
+    <div class="card"><div class="dot"></div><h3>Weather and alerts</h3><p>Current conditions plus active weather alerts.</p></div>
   </div>
 </div></section>
 
-<section id="dashboards"><div class="wrap">
-  <h2>Station dashboards</h2>
-  <p class="lede">A screen at the station that takes dispatch data from Active911 and puts it in front of the crew.</p>
-  <div class="cols">
-    <div><h3>Instant alerts</h3><p>When a call comes in from Active911, the display immediately shows the incident type, address, and units assigned, along with a Google map and Street View when available.</p></div>
-    <div><h3>Current shift</h3><p>The shift on duty is always on screen.</p></div>
-    <div><h3>Time and weather</h3><p>The current time and current weather conditions, always visible.</p></div>
-    <div><h3>Recent incidents</h3><p>A list of past incidents so crews can see what the station has run.</p></div>
-    <div><h3>Custom slide show</h3><p>Pictures, announcements, historic data, or almost anything you want, in a slide show you control.</p></div>
+<section class="alt"><div class="wrap">
+  <div class="eyebrow">Integrations</div>
+  <h2>Connects to the systems you already use</h2>
+  <p class="lede" style="margin-bottom:0">Dashboards run from your Active911 dispatch data. Loose integrations with Computer-Aided Dispatch (CAD) and Records Management Systems (RMS) are also possible. Ask us what would work for your agency.</p>
+</div></section>
+
+<section id="pricing"><div class="wrap">
+  <div class="pricing">
+    <div><div class="from">Dashboards start at</div><div class="amt">$500</div></div>
+    <p>Final pricing depends on your department's needs. Contact us and we'll put together a quote.</p>
   </div>
 </div></section>
 
-<section id="services"><div class="wrap">
+<section id="services" class="alt"><div class="wrap">
+  <div class="eyebrow">Services</div>
   <h2>Incident data services</h2>
-  <p class="lede">Beyond dashboards, we work directly with Fire/EMS incident data: cleaning it up, reporting on it, and helping agencies understand what it shows.</p>
+  <p class="lede" style="margin-bottom:0">Beyond dashboards, we work directly with Fire/EMS incident data: cleaning it up, reporting on it, and helping agencies understand what it shows.</p>
 </div></section>
 
 <section id="clients"><div class="wrap">
-  <h2>Client help</h2>
-  <p class="lede">Guides, short videos, and answers for the agencies we work with.</p>
+  <div class="eyebrow">Client help</div>
+  <h2>Guides, videos, and answers</h2>
+  <p class="lede">Help files for the agencies we work with.</p>
   <a class="btn" href="iowa/">State of Iowa help</a>
 </div></section>
 
-<section id="contact" style="border-bottom:0"><div class="wrap">
-  <h2>Contact</h2>
-  <p class="lede">Tell us about your department and we'll get back to you.</p>
+<section id="contact" class="alt"><div class="wrap">
+  <div class="eyebrow">Contact</div>
+  <h2>Tell us about your department</h2>
+  <p class="lede">We'll get back to you.</p>
   <a class="btn" href="mailto:contact@fireemsreporting.com">contact@fireemsreporting.com</a>
 </div></section>
 </main>
 
-<footer><div class="wrap"><img src="assets/favicon.png" alt="">&copy; Fire EMS Reporting</div></footer>
+<footer><div class="wrap"><img src="assets/favicon.png" alt=""><span>&copy; Fire EMS Reporting</span></div></footer>
 </body>
 </html>
