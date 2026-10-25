@@ -71,3 +71,8 @@ footer a{color:#fff}
  section{padding:56px 0}.hero{padding-top:48px}
  .btn.alt{margin:12px 0 0}.pricing{padding:30px}.pricing .amt{font-size:3.2rem}
 }
+
+/* v1.7_20261024_1925 demo section */
+.demo-frame{margin:22px 0 8px}
+.demo-btn{display:none}
+@media (max-width:640px){.demo-frame{display:none}.demo-btn{display:inline-block;margin-top:14px}}
