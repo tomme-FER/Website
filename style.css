@@ -1,4 +1,4 @@
-/* FER Website v1.9_20261027_1130 */
+/* FER Website v1.10_20261104_1555 */
 :root{--red:#941819;--red2:#b52024;--navy:#242d72;--navy-d:#141a45;--ink:#161a22;--steel:#5a6472;--line:#dfe2ea;--bg:#f6f7fb;--white:#fff;--amber:#FF8C00}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -76,3 +76,15 @@ footer a{color:#fff}
 .demo-frame{margin:22px 0 8px}
 .demo-btn{display:none}
 @media (max-width:640px){.demo-frame{display:none}.demo-btn{display:inline-block;margin-top:14px}}
+
+/* v1.10 footer links, requirements and credits pages */
+footer .flinks{margin-left:auto;display:flex;gap:18px;flex-wrap:wrap}
+footer .flinks a{color:#c9cde6}
+footer .flinks a:hover{color:#fff}
+.prose{max-width:760px}
+.prose h2{font-size:1.5rem;margin:34px 0 10px}
+.prose h2:first-child{margin-top:0}
+.prose ul{margin:0 0 14px 22px;color:var(--steel)}
+.prose li{margin-bottom:6px}
+.prose p{color:var(--steel);margin-bottom:12px}
+.vid .frame.soon{font-weight:600}
